@@ -45,8 +45,6 @@ if __name__ == '__main__':
     root.left.left = Node(4)
     root.right.left = Node(5)
     root.right.right = Node(6)
-    root.right.left.left = Node(7)
-    root.right.left.right = Node(8)
  
     d = {}
     print('The size of a maximum independent set is', findMIS(root, d))
